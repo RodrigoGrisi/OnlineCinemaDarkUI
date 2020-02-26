@@ -1,0 +1,81 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  border-radius: 2%;
+  margin: 1%; 
+}
+
+.account{
+  display: block;
+  margin-top: 70%;
+}
+
+.account h2{
+  font-size: 18px;
+  margin-top: 120%;
+  color: white;
+}
+
+.search{
+  border: 1px solid white;
+  margin: 2%;
+  margin-left: -2%;
+  width: 70%;
+  background-color: #1E1839;
+}
+
+.searchDirect{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchDirect input{
+  padding: 1.6%;
+  border-radius: 8px;
+  margin-top: 4%;
+  width: 88%;
+  background-image: linear-gradient(135deg, #272048 80%, #4d005a 150%);
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+
+.secondText{
+  margin-top: 2%;
+  width: 90%;
+  display: flex;  
+  justify-content: space-between;
+}
+
+.secondText .recommend ul li{
+  font-size: 105%;
+  color: white;
+}
+
+.secondText .recommendAreas ul{
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
+  font-size: 14px;
+}
+
+.indicateds{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin: 3%;
+  margin-left: -2%;
+  margin-top: 2%;
+  width: 15%;
+  border-radius: 0px 30px 30px 0px;
+  background-color:#272048
+}
+
+.indicateds img{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 65%;
+  margin: 10%;
+}
